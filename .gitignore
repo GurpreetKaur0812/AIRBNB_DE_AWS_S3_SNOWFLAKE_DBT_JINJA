@@ -1,10 +1,11 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# dbt
+aws_dbt_snowflake_project/target/
+aws_dbt_snowflake_project/logs/
+aws_dbt_snowflake_project/dbt_packages/
 
-# Virtual environments
-.venv
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
